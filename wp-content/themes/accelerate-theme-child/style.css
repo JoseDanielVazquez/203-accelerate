@@ -45,6 +45,22 @@ Text Domain:  accelerate-theme-child
 	font-size: 1.5em;
 }
 
+.featured-work {
+	text-align: center;
+}
+
+.homepage-featured-work {
+	align-items: center;
+	display: flex;
+	list-style-type: none;
+	margin: 55px 10px 15px;
+	padding: 0;
+}
+
+.individual-featured-work {
+	margin: 0px 10px;
+}
+
 .read-more-link {
 	font-family: 'Montserrat';
 	font-weight: 700;
