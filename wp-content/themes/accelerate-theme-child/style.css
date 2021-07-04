@@ -83,4 +83,9 @@ div.case-study-images {
 	padding: 0px 20px;
 }
 
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
 /* End CASE STUDIES STYLES */

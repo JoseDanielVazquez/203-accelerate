@@ -27,6 +27,7 @@ get_header(); ?>
         ?>
         <article class="case-study">
             <aside class="case-study-sidebar">
+                <p><a href="<?php echo site_url('/case-studies/') ?>">Back To Work</a></p>
                 <h2><?php the_title(); ?></h2>
                 <h5><?php echo $services; ?></h5>
                 <h6>Client: <?php echo $client; ?></h6>
