@@ -90,6 +90,44 @@ div.case-study-images img {
 
 /* End CASE STUDIES STYLES */
 
+/* CONTACT PAGE STYLES */
+
+.page-id-47354 .main-content {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.nf-before-form-content {
+  display: none;
+}
+
+.ninja-forms-req-symbol {
+  display: none;
+}
+
+#nf-field-1-container, #nf-field-2-container {
+	width: 45%;
+	float: left;
+	clear: right;
+}
+
+#nf-field-1-container {
+	margin: 0 10% 0 0;
+}
+
+.nf-field-label label {
+  font-weight: 400;
+  font-size: .823em;
+}
+
+.nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit] {
+  background-color: #45ac9d!important;
+  float: right;
+  padding: 0 50px;
+}
+
+/* End CONTACT PAGE STYLES */
+
 /* FOOTER STYLES */
 
 #menu-social-media-nav {
