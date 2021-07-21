@@ -70,6 +70,89 @@ Text Domain:  accelerate-theme-child
 
 /* End HOMEPAGE STYLES */
 
+/* ABOUT US PAGE STYLES */
+
+.about-page {
+  background: url("img/death-to-stock-nyc6.png") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  height: auto;
+  margin: 0 0 5em;
+  padding: 8em 0;
+  text-align: center;
+}
+
+.about-hero-content h3 {
+  color: #fff;
+  font-family: 'Open Sans';
+  font-size: 1.4em;
+  font-weight: normal;
+  max-width: 42%;
+  margin: 0 auto;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.about-services {
+  text-align: center;
+}
+
+.about-services p {
+  width: 55%;
+}
+
+.services-offered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 20px 0;
+}
+
+.services-offered:nth-child(2n) {
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.services-offered-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 32px;
+  width: 70%;
+}
+
+.contact-link-section {
+  clear: both;
+  margin: 0 auto;
+  padding: 28px 0 20px;
+  width: 90%;
+  max-width: 960px;
+  border-top: 1px solid #bfbfbf;
+}
+
+.call-to-action {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.call-to-action h4 {
+  float: left;
+  width: 35%;
+  text-transform: none;
+}
+
+.call-to-action a {
+  float: left;
+  margin-top: 20px;
+}
+
+/* End ABOUT US PAGE STYLES */
+
 /* CASE STUDIES STYLES */
 
 aside.case-study-sidebar {
