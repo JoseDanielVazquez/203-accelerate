@@ -28,20 +28,24 @@ Text Domain:  accelerate-theme-child
 	background: none repeat scroll 0 0 #45ac9d;
 }
 
-.blog-post {
-	width: 50%;
+.blog-post, .widget-area {
+	width: 45%;
 	float: left;
 	margin-bottom: 2em;
 }
 
-.blog-post h4 {
+.widget-area {
+  margin-left: 5%;
+}
+
+.blog-post h4, .widget-area h4 {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
     margin: 2em 0 .5em;
 }
 
-.blog-post h3 {
+.blog-post h3, .widget-area h3 {
 	font-size: 1.5em;
 }
 
@@ -61,7 +65,7 @@ Text Domain:  accelerate-theme-child
 	margin: 0px 10px;
 }
 
-.read-more-link {
+.read-more-link, .follow-us-link {
 	font-family: 'Montserrat';
 	font-weight: 700;
 	color: #45ac9d;

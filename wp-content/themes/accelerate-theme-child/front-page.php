@@ -60,4 +60,13 @@ get_header(); ?>
 		</div>
 	</section>
 
+	<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+		<div id="secondary" class="widget-area" role="complementary">
+			<h4>Recent Tweet</h4>
+			<h3>@Accelerate</h3>
+			<?php dynamic_sidebar( 'sidebar-2' ); ?>
+			<div class="follow-us-link"><a href="http://twitter.com/skillcrush" target="_blank"><span>Follow Us</span> &rsaquo;</a></div>
+		</div>
+	<?php endif; ?>
+
 <?php get_footer(); ?>
