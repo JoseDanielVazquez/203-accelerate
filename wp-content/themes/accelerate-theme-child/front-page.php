@@ -61,7 +61,7 @@ get_header(); ?>
 	</section>
 
 	<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-		<div id="secondary" class="widget-area" role="complementary">
+		<div id="secondary" class="widget-area twitter-module" role="complementary">
 			<h4>Recent Tweet</h4>
 			<h3>@Accelerate</h3>
 			<?php dynamic_sidebar( 'sidebar-2' ); ?>
