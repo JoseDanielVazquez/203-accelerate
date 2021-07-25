@@ -49,6 +49,7 @@ add_action( 'init', 'create_custom_post_types' );
 
 // Dynamic sidebar
 function accelerate_theme_child_widget_init() {
+    // Twitter module
     register_sidebar( array(
     'name' =>__( 'Homepage sidebar', 'accelerate-theme-child'),
     'id' => 'sidebar-2',
