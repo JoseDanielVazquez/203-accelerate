@@ -76,6 +76,10 @@ Text Domain:  accelerate-theme-child
 
 /* BLOGPAGE STYLES */
 
+.newsletter-container {
+	padding: 0 1.8em 0 1.1em;
+}
+
 .mc4wp-form-fields input[type="submit"] {
   background: #45ac9d;
   padding: 1em 4.3em 2em 4.3em;
